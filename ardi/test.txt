@@ -1,8 +1,0 @@
--update repository
-git init 
-git add .
-git commit -m "pesan"
-git push -u origin master
-
--get file update repository
-git pull origin master
