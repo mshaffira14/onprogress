@@ -1,0 +1,81 @@
+anaconda
+ide (integreted development environtment) sebuah software framework untuk memudahkan pemrograman secara real time spt spyder, pycharm, jupyter notebook
+git dan github adalah sebuah framework bagaimana bisa berkolaborasi dengan programmer lain
+
+object, data structures, flow conntrol:
+-numbers
+-strings
+-lists
+-dictionaries
+-tuples
+-boolean
+-sets
+-slicing
+- if..else..
+-for loop
+-while loop
+-range
+-pythonic way
+
+methods dan function
+-lambda expression
+-nested statements
+
+object oriented programming
+-objects
+-clasess
+-methods
+-inheritens
+composition
+-aggregation
+
+error handling
+
+modukes dan packages
+-membuat modules
+-install modules
+
+maths & statistics in python
+-aritmatika
+-aljabar
+-visualisasi grafis
+-trigonometri
+-kalkulus
+-probabilitas
+-uji hipotesis
+
+Databases
+-sqlite3
+-sql
+-gui database
+
+AI & data science
+-numpy
+-pandas
+-seaborn
+-matplotlib
+-scikit-learn
+-tensorflow 2.0/ keras
+- machine learning dan deep learning
+-big data - hadoop
+
+membuat aplikasi web
+-tkinter (grafis)
+- openCV sebuah library yg terkenal untuk dunia kamera, webcam dsb, facial recognition
+-bokeh (visualisasi data)
+-postgreSQL
+flask (web framework)
+front end & back end
+
+command prompt
+cd - untuk menuju folder
+dir - untuk mengetahui folder apa saja
+cd .. - untuk balik lagi ke folder sebelumnya
+tab - untuk mencari secara easy
+
+terminal
+pwd (print working directory) - untuk mengetahui ada di folder mana
+ls untuk mengetahui isi folder ada apa saja
+cd .. untuk kembali
+cd untuk menuju ke directory
+clear akan membersihkan layar
