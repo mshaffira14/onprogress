@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Belajar Html</title>
 </head>
 <body>
@@ -13,16 +16,13 @@
     <nav>
         <ul class="ul">
             <li>
-                <p>home</p>
-                <span>|</span>    
+                <a href="#">home</a>
             </li>
             <li>
-                <p>about</p>
-                <span>|</span>    
+                <a href="#about">about</a>
             </li>
             <li>
-                <p>contact</p>
-                <span>|</span>    
+                <a href="#contact">contact</a>
             </li>
             
         </ul>
@@ -32,24 +32,117 @@
  <!-- content -->
     <main>
         <section id="home">
-                <div class="text-body">
-                    <h2>Hi There!</h2>
-                    <p>I'M Shaffira</p>
+            <div class="wrapper">
+                <div class="content">
+                    <div class="text-home">
+                        <h2>Shaffira Fitri</h2>
+                        <p>Computer Science Student and Great Programmer</p>
+                    </div>
+                    <div class="icon">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
                 </div>
                 <div class="foto">
-                    <img src="zee.jpeg" alt="">
+                    <img src="zee-jkt48-1 (1).jpeg" alt="">
                 </div>
+                
         </section>
 
 
         <section id="about">
-
+    <div class="area" style="position: fixed;background-color: #786d61;">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="about-wrapper">
+        <div id="div-mask-front">
+            <h1>About Me</h1>
+        </div>
+        <div id="div-mask-back" aria-hidden="true">
+            <div class="area" style="position: absolute;background-color: #444444;">
+                <ul class="circles">
+                    <li style="--color: linear-gradient(319deg, #bbff99 100%, #ffec99 37%, #ff9999 100%);"></li>
+                    <li style="--color: linear-gradient(315deg, #d387ab 100%, #b279a7 74%);"></li>
+                    <li style="--color: linear-gradient(315deg, #378b29 0%, #ffffff 74%);"></li>
+                    <li style="--color: linear-gradient(315deg, #f6ecc4 0%, #f7d4d4 74%);"></li>
+                    <li style="--color: linear-gradient(319deg, #dbf26e 0%, #61fa74 37%, #1cfdd6 100%);"></li>
+                    <li style="--color: linear-gradient(315deg, #ffffff 0%, #274060 74%);"></li>
+                    <li style="--color: linear-gradient(319deg, #c2eaba 0%, #c5f4e0 37%, #efc2cf 100%);"></li>
+                    <li style="--color: linear-gradient(319deg, #cdedfd 0%, #ffec82 37%, #ffcfd2 100%);"></li>
+                    <li style="--color: linear-gradient(315deg, #1dd1a1 0%, #d3d3d3 74%);"></li>
+                    <li style="--color: linear-gradient(315deg, #48dbfb 0%, #d3d3d3 74%);"></li>
+                </ul>
+            </div>
+            <pre>
+    <span class="variable">name</span> <span class="character">=</span> <span class="string">"Shaffira"</span>
+    <span class="variable">age</span> <span class="character">=</span> <span class="number">20</span>
+    <span class="variable">profession</span> <span class="character">=</span> <span class="string">"Data Analyst & CyberSecurity Enthusiast"</span>
+    <span class="variable">experties</span> <span class="character">=</span> <span class="string">"Analyst Data and Develop Web Applications"</span>
+    
+    <span class="variable">skills</span> <span class="character">=</span> <span class="bracket">{</span>
+        <span class="string">"Full-Stack Web Developer"</span> <span class="character">:</span> <span class="string">"HTML/CSS | Bootstrap | PHP | CodeIgniter..."</span><span class="character">,</span>
+        <span class="string">"Data Analyst"</span> <span class="character">:</span> <span class="string">"C++ | Python"</span><span class="character">,</span>
+        <span class="string">"Cyber Security"</span> <span class="character">:</span> <span class="string">"Linux | Wireshark | Fiddler..."</span><span class="character">,</span>
+        <span class="string">"Other"</span> <span class="character">:</span> <span class="string">"Python | Git/Github | Docker..."</span>
+    <span class="bracket">}</span>
+    
+    <span class="variable">hobbies</span> <span class="character">=</span> <span class="bracket">[</span>
+        <span class="string">"Eat"</span><span class="character">,</span>
+        <span class="string">"Learning New Things"</span><span class="character">,</span>
+        <span class="string">"Sharing Knowledge"</span><span class="character">,</span>
+        <span class="string">"Sleep"</span>
+    <span class="bracket">]</span>
+                </pre>
+        </div>
+    </div>
         </section>
-
+    <div class="form-main">
+        <div class="main-wrapper">
+            <h2 class="form-head">Contact Me</h2>
+            <form class="form-wrapper">
+                <div class="form-card">
+                    <input class="form-input" type="text" name="full_name" required="required" />
+                    <label class="form-label" for="full_name">Full Name</label>
+                </div>
+    
+                <div class="form-card">
+                    <input class="form-input" type="email" name="email" required="required" />
+                    <label class="form-label" for="email">Email</label>
+                </div>
+    
+                <div class="form-card">
+                    <input class="form-input" type="number" name="phone_number" required="required" />
+                    <label class="form-label" for="phone_number">Phone number</label>
+                </div>
+    
+                <div class="form-card">
+                    <textarea class="form-textarea" maxlength="420" rows="3" name="phone_number"
+                        required="required"></textarea>
+                    <label class="form-textarea-label" for="phone_number">Address</label>
+                </div>
+                <div class="btn-wrap">
+                    <button> Submit </button>
+                </div>
+            </form>
+        </div>
+    </div>
         <section id="contact">
 
         </section>
     </main>
+   
     <!-- footer -->
     <footer>
 
@@ -61,5 +154,36 @@
     <marquee  direction="right">ini tag marque</marquee>
     <b></b>
     <i></i> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script>
+        const mask = document.querySelector("#div-mask-back");
+            const tl = gsap.timeline();
+
+            tl.to(mask, {
+                "--m1": "20%",
+                delay: 2,
+                duration: 0.5,
+                ease: "back.out(2)"
+            }).to(mask, {
+                "--m2": "30%",
+                duration: 0.5,
+                delay: 0.5,
+                ease: "back.out(2)"
+            });
+
+            window.addEventListener("mousemove", (e) => {
+                const { clientX, clientY } = e;
+                const x = Math.round((clientX / window.innerWidth) * 100);
+                const y = Math.round((clientY / window.innerHeight) * 100);
+
+                gsap.to(mask, {
+                    "--x": `${x}%`,
+                    "--y": `${y}%`,
+                    duration: 0.3,
+                    ease: "sine.out"
+                });
+            });
+    </script>
 </body>
 </html>
